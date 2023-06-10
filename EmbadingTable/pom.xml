@@ -2,12 +2,12 @@
   xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
   <modelVersion>4.0.0</modelVersion>
 
-  <groupId>AnnotationHibernate</groupId>
-  <artifactId>AnnotationHibernate</artifactId>
+  <groupId>Embadded</groupId>
+  <artifactId>e1</artifactId>
   <version>0.0.1-SNAPSHOT</version>
   <packaging>jar</packaging>
 
-  <name>AnnotationHibernate</name>
+  <name>e1</name>
   <url>http://maven.apache.org</url>
 
   <properties>
@@ -15,8 +15,7 @@
   </properties>
 
   <dependencies>
-	  
-	  	<!-- https://mvnrepository.com/artifact/org.hibernate/hibernate-core -->
+	  <!-- https://mvnrepository.com/artifact/org.hibernate/hibernate-core -->
 		<dependency>
 			<groupId>org.hibernate</groupId>
 			<artifactId>hibernate-core</artifactId>
@@ -28,11 +27,5 @@
 			<artifactId>mysql-connector-java</artifactId>
 			<version>8.0.16</version>
 		</dependency>
-    <dependency>
-      <groupId>junit</groupId>
-      <artifactId>junit</artifactId>
-      <version>3.8.1</version>
-      <scope>test</scope>
-    </dependency>
   </dependencies>
 </project>

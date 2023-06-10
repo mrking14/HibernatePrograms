@@ -8,10 +8,6 @@ import org.hibernate.SessionFactory;
 import org.hibernate.Transaction;
 import org.hibernate.cfg.Configuration;
 
-/**
- * Hello world!
- *
- */
 public class App {
 	public static void main(String[] args) throws Exception {
 
@@ -30,8 +26,8 @@ public class App {
 
 		Student s1 = new Student();
 		s1.setStudentName("Masoom Raza");
-		s1.setCity("Muzaffarpur");
-		s1.setS_Id(27);
+		s1.setCity("Delhi");
+		s1.setS_Id(49);
 		
 		session.save(s1);
 		

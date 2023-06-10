@@ -15,5 +15,6 @@
 		
 		<mapping class="image.imageHiber.Address"/>
 		<mapping class="image.imageHiber.Student"/>
+		
 	</session-factory>
 </hibernate-configuration>

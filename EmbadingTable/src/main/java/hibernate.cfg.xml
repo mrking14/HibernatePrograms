@@ -12,9 +12,7 @@
 		<property name="dialect">org.hibernate.dialect.MySQL5Dialect</property>
 		<property name="hbm2ddl.auto">update</property>
 		<property name="show_sql">true</property>
-		
-		<mapping class="image.imageHiber.Address"/>
-		<mapping class="image.imageHiber.Student"/>
+		<mapping class="Embadded.e1.Intern"/>
 		
 	</session-factory>
 </hibernate-configuration>
