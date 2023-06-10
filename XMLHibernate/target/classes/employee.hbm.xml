@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE hibernate-mapping PUBLIC 
+    "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+    "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+    
+<hibernate-mapping>
+	<class name="com.pojo.Employee" table="Employee">
+		<meta attribute="class-description">This class contains information about Employee.
+		</meta>
+		<id name="eId" type="int" column="EmpID">
+		
+		</id>
+		<property name="firstName" type="string" column="FirstName" />
+		<property name="lastName" type="string" column="lastName" />
+
+	</class>
+</hibernate-mapping>	
