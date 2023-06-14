@@ -17,5 +17,7 @@
 		<mapping class="one2one.Answers"/>
 		<mapping class="one2many.Question"/>
 		<mapping class="one2many.Answer"/>
+		<mapping class="many2many.Project"/>
+		<mapping class="many2many.Worker"/>
 	</session-factory>
 </hibernate-configuration>
